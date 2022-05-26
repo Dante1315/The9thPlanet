@@ -6,7 +6,7 @@
     verificars();
     verificarad();
    
-        $publi=publi::mostrar($_SESSION['id_usu']);
+        $publi=publi::mostrarper($_SESSION['id_usu']);
 
     
     $error="";

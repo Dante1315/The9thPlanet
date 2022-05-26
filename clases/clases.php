@@ -181,6 +181,13 @@ class publi{
         return $resultado;
     }
 
+    public static function mostrarper($id_usu){
+        $conn=conexion("be76f7e687d567","1e15a88c");
+        $consulta=$conn->prepare("select U.id_usu,U.rol_usu,U.nom_usu,U.alias_usu,U.foto_usu,P.id_publi,P.texto_publi,P.foto_publi,P.fecha_publi from usuarios U inner join publicaciones P on U.id_usu=P.id_usu where  P.id_usu in ($id_usu)  ORDER BY P.id_publi DESC");
+        $consulta->execute();
+        $resultado=$consulta->fetchAll();
+        return $resultado;
+    }
    
     public static function mostrar($amigos){
         $conn=conexion("be76f7e687d567","1e15a88c");
