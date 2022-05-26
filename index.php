@@ -31,7 +31,7 @@
                             $_SESSION['app_usu']=$resultados[0]["app_usu"];
                             $_SESSION['foto_usu']=$resultados[0]["foto_usu"];
                             $_SESSION['apm_usu']=$resultados[0]["apm_usu"];
-                            $_SESSION['alias_usu']=$resultados[0]["apm_usu"];
+                            $_SESSION['alias_usu']=$resultados[0]["alias_usu"];
                             $_SESSION['fecha_usu']=$resultados[0]["fecha_usu"];
                             $_SESSION['correo_usu']=$resultados[0]["correo_usu"];
                             header('location:inicio.php');
