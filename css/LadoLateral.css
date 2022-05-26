@@ -1,0 +1,88 @@
+.Lateral{
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    width: 22%;
+    left: 76.7%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    /*parte lateral de comunicados y grupos*/
+    text-align: center;
+}
+
+.Lateral img{
+    position: relative;
+}
+.grupos{
+    width: 99%;
+}
+
+.grupos table{ 
+    width: 100%;
+    height: 50%;
+    background: rgba(228, 171, 192, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+/*Nombre de la seccion*/
+.grupos h1{
+    margin-top: 3%;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    font-size: 25px;
+    line-height: 24px;
+    color: #411425;
+    width: 100%;
+}
+/*Nombre de la seccion*/
+
+/*mostar mas..*/
+.grupos h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    align-items: center;
+    color: #36111F;
+    width: 70%;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+/*mostar mas..*/
+
+/*Secciones*/
+.grupos a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.grupos a:hover{
+    text-decoration: none;
+    color: #B93A69;
+    
+}
+.Tusgrupos{
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    text-align: justify;
+}
+
+/*Nombre del grupo*/
+.Tusgrupos h3{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    height: 50%;
+    left: 50%;
+}
+/*Nombre del grupo*/

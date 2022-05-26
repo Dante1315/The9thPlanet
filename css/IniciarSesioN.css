@@ -1,0 +1,413 @@
+
+/* Rectangle 1 */
+#rectangle{
+    position: absolute;
+    width: 100%;/*-*/
+    height: 75%;/*l*/
+    left: 0px;
+    top: 0px;
+    background: #983051;
+}
+
+
+#logo{
+    position: relative;
+    width: 650px;/*-*/
+    height: 260px;/*l*/
+    left: 7%;
+    top: 28%;
+    
+}
+
+#rectangle nav {
+    margin-bottom: -300px;
+    margin-right: -100px;
+    position: relative;
+}
+
+#logo img{   
+    position: static;
+    width: 650px;/*-*/
+} 
+
+#Page-Login{
+    position: absolute;
+    width: 350px;/*-*/
+    height: 350px;/*l*/
+    left: 65%;
+    top: 25%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+}
+
+#Page-Login form{
+    
+    width: 100%;/*-*/
+    height: 100%;/*l*/
+    text-align: center;
+
+}
+
+/*Inicio de tipografia imput*/
+.correo input {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+   /* Text Placeholder */
+    color: #28292C;
+}
+
+.contraseña input {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+   /* Text Placeholder */
+    color: #28292C;
+}
+/*fin de tipografia input*/
+
+.correo{
+    position: absolute;
+    width: 110%;/*-*/
+    height: 11.5%;/*l*/
+    left: -20px;
+}
+
+.correo input{
+    position: absolute;
+    width: 70%;/*-*/
+    height: 80%;/*l*/
+    left: 15%;
+    top: 70%;
+
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(-0.1deg);
+    border-radius: 5px;
+
+}
+
+.correo input + span {
+    padding-right: 30%;
+}
+
+.contraseña{
+    position: absolute;
+    width: 110%;/*-*/
+    height: 11.5%;/*l*/
+    left: -20px;    
+}
+
+.contraseña input{
+    position: absolute;
+    width: 70%;/*-*/
+    height: 80%;/*l*/
+    left: 15%;
+    top: 70%;
+
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(-0.1deg);
+    border-radius: 5px;
+
+}
+
+.contraseña input + span {
+    padding-right: 30%;
+}
+
+#Page-Login div {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#Page-Logininput:invalid+span:after {
+    position: absolute; content: '✖';
+    padding-left: 5px;
+}
+#Page-Logininput:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+}
+
+.CrearCuenta{
+    position: absolute;
+    width: 100%;/*-*/
+    height: 11%;/*l*/
+    
+   
+}
+.CrearCuenta button {
+    background: #1176CE;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(-0.1deg);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+}
+.CrearCuenta button:hover{
+    background: black;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/*botones*/
+.IniciarSesion{
+    position: absolute;
+    width: 100%;/*-*/
+    height: 10.5%;/*l*/
+}
+.IniciarSesion input{
+    position: absolute;
+    width: 76%;/*-*/
+    height: 80%;/*l*/
+    left: 12%;
+    right: 60px;
+    top: 22%;
+    background: #983056;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(-0.1deg);
+    border-radius: 15px;
+
+}
+.IniciarSesion input{
+    position: absolute;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 10px;
+   color: #F7F7F7;
+}
+.IniciarSesion input:hover{
+    background: black;
+}
+/*Botoón dentro del from*/
+
+.container input[type=textD], select {
+    width: 49.5%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  
+}
+
+.container input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container input[type=password] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container  input[type=number], select {
+    width: 49.5%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+  
+.container input[type=submit] {
+    width: 100%;
+    background-color: #983056;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 10px;
+    color: #F7F7F7;
+  }
+  
+.container input[type=submit]:hover {
+    background-color: #CA5680;
+  }
+  
+.container  div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+
+
+a{
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #983056;
+    text-decoration: none;
+
+}
+
+h2{
+    position: absolute;
+
+    height: 80%;/*l*/
+    left: 5%;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+/*inicio footer*/
+.footer{
+    position: absolute;
+    width: 100%;/*-*/
+    
+    left: 0px;
+    top: 75%;
+    
+}
+
+.footer h4{
+    /* CECyT N°9 “Juan de Dios Bátiz” */
+    position: static;
+    height: 24px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    /* H6 - bold 18 (24. 0.1px) */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.footer h5{
+    /* Es una institución educativa de nivel medio superior perteneciente al Instituto Politécnico Nacional. */
+    position: static;
+    left: 0px;
+    right: 0px;
+    top: 36px;
+    bottom: 0px;
+    /* Body 2 - regular 14 (20, 0.2px) */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 143% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* Light / Black */
+    color: #373F41;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+/*fin footer*/ 
+/*elige crear cuenta*/
+.ElegirCuenta{
+    text-align: center;
+}
+.ElegirCuenta a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 10px;
+
+    color: #373737;
+}
+
+.cCuentaA p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    color: #373737;
+}
+
+.cCuentaA span{
+    font-size: 30px;
+    color: #373737;
+    top: 10%;
+    left: 15%;
+    right: 85%;
+    padding: 20px ;
+}
+
+.cCuentaA {
+    width: 98%;/*-*/
+    height: 100%;/*l*/
+    left: 1%;
+}
+
+.cCuentaP {
+    width: 98%;/*-*/
+    height: 100%;/*l*/
+    left: 1%;
+}
+.cCuentaA a:hover{
+    color:#983056;
+}
+
+
+
+
+
+
+
+
+
+
+
+

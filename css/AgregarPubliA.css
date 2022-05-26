@@ -1,0 +1,113 @@
+.public{
+     /* Arriba | Derecha | Abajo | Izquierda */
+    padding: 5% 27% 0% 17%;
+    /* rectangulo de publicaciónes*/  
+    background-color: #F9F9F9;
+    left: 100%;
+}
+
+.publicaciones{
+    /*   */
+    box-sizing: border-box;  
+}
+
+.publicaciones nav{
+    /* Nombre de la página */
+    margin: 1.5% 0;
+    display: flex;
+    align-items: center;
+    color: #494949; 
+}
+
+.publicaciones h2{
+    /* Nombre de la página */
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1.4em;
+}
+.publicacionA {
+    /* Agregar publicación alumno */
+    width: 100.3%;
+    border: 2px solid #FEFEFE(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 9px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 15px rgba(75, 57, 57, 0.253);
+}
+
+.publicacionA img{
+    /*imagen de usuario en publicación alumno*/
+    color: rgba(3, 22, 38, 0.5);
+    margin: 1  2 0 1;
+    width: 60px;
+    border-radius: 50px;
+    margin: 1%;
+}
+
+.textpublicacionA input{
+    /*texto en publicación alumno*/
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background-color: #FCFCFC;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0% 1em 1% 5%;
+    width: 90%;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+    color: #494949;
+
+}
+
+.textpublicacionA input:hover {
+    /*efecto en texto en publicación alumno*/
+    outline: none;
+    background-color: #FCFCFC;
+    color: #494949;
+}
+.textpublicacionA input:focuS{
+    outline: none;
+    background-color: #FCFCFC;
+    color: #494949;
+
+}
+
+.AgregarImg input{
+    margin:1%; 
+    /*botón de publicar en rectángulo*/
+    padding: 1%;
+    
+}
+
+.AgregarImg span{
+    margin: 1%;
+    font-size: 2.5rem;
+    color: #061C23;
+}
+
+.bottonA{
+    margin: 1%;
+}
+.bottonA input {
+    /*botón de publicar en rectángulo*/
+    width: 70px;
+    padding: .75%;
+    background: #1176CE;
+    border-radius: 10px;  
+    font-size: 20px; 
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+
+
+
+
+
+

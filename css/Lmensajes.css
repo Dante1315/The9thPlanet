@@ -1,0 +1,98 @@
+
+.Lmensajes table{
+    
+    width: 100%;
+    height: 50%;
+    background: #EBEBEB;
+    border-radius: 15px;
+
+    
+}
+.Lmensajes h1{
+     font-family: 'Fira Sans', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 24px;
+     line-height: 24px;
+     text-align: center;
+     color: #000000;
+}
+.Lmensajes h4{
+    font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 14px;
+     display: flex;
+     align-items: center;
+     
+     color: #983056;
+ }
+.Lmensajes a{
+     text-decoration: none;
+ }
+ .AgregaMensaje {
+ 
+     box-sizing: border-box;
+     width: 100%;
+     height: 90%;
+    
+ 
+}
+
+ .AgregaMensaje  h3{
+     font-family: 'Lato', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+ }
+
+ 
+ .ImagAgregaMensaje  {
+     box-sizing: border-box;
+     width: 100%;
+     height: 50%;
+     
+ }
+ .ImagAgregaMensaje  img{
+     left: -7%;
+     top: -44%;
+     width: 70px;
+     height: 70px;
+     border-radius: 15px;
+ }
+.batizianos img{
+     position: relative;
+ }
+.batizianos button {
+    /*botón de publicar en rectángulo*/
+      width: 90%;
+      height: 50%;
+  
+      /* Arriba | Derecha | Abajo | Izquierda */
+      margin: 0% 0em 0% 0%;
+  
+      background: #1176CE;
+      border-radius: 50px;
+      
+      font-family: 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: .8rem;
+    
+      color: #F1F1F1;
+      letter-spacing: 0.07em;
+  
+      
+      display: flex;
+      align-items: center;
+      text-align: center;
+      
+      border: none;
+}
+  
+.batizianos button:hover{
+      /*Efecto de oprimir de botón de publicar en rectángulo*/
+      background: #0D5DA3;
+      opacity: 1;
+}

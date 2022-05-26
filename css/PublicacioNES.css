@@ -1,0 +1,298 @@
+
+.publicacionU {
+    
+    /* Agregar publicación alumno */
+    width: 100.3%;
+    border: 2px solid #FEFEFE(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 9px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 4px 15px rgba(75, 57, 57, 0.253);
+}
+
+.DatosU td{
+    background-color: #fcfcfc;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 9px;
+}
+.DatosU a{
+    text-decoration: none;
+}
+.iconoFotoU img{
+    /*foto de usuario en publicación alumno*/
+    border-radius: 50%;
+    margin: 3%;
+    width: 60px;
+}
+
+.NombreU h4{
+    margin: 5px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: #061C23;
+  
+}
+
+.NombreU h2{
+    margin: 5px;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    color: #2B0E18;
+  
+}
+.AliasU h4{
+    margin: 0%;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+    color: #061C23;
+  
+}
+
+
+.iconoOpcionesU button{
+    margin: -10%;
+    float: left;
+    background: #fcfcfc;
+    border:  #fcfcfc;
+    text-align: center;
+    text-decoration: none;
+}
+.iconoOpcionesU button:hover{
+    /*Efecto de oprimir de botón de publicar en rectángulo*/
+    background: #fcfcfc;
+    border:  #fcfcfc;
+    opacity: 1;
+    outline: none;
+
+}
+.iconoOpcionesU button:active{
+    background: #fcfcfc;
+    border:  #fcfcfc;
+    opacity: 1;
+    outline: none;
+}
+
+.iconoOpcionesU span{
+    /*icono de opciones en publicación alumno*/
+    margin: 0%;
+    font-size: 2rem;
+    color: rgba(3, 22, 38, 0.5);
+    background-color: #FEFEFE;
+}
+
+.FechaPU h2{
+    margin: .5% 0 0 1%;
+    
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: #5C5C5C;
+ 
+}
+.TextoPU h2{
+    margin: 2%;
+    font-weight: 450;
+    width: 97%;   
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.TextoPU img{
+    /*foto en publicación alumno*/
+    border-radius: 2%;
+    margin: 1%;
+    width: 97%;
+
+}
+.imgpublicacionU{
+    margin: 1.5%;
+}
+.imgpublicacionU img{
+    width: 100%;
+    height: 20rem;
+    margin: 0% 0% 0% 0%;
+    border-radius: 15px;
+}
+
+
+.iconoReaccionU p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 90%;
+    padding: 3px 45%;
+    color: #5C5C5C;
+}
+.ComentariosP table{
+    box-sizing: border-box;
+    background-color: #FCFCFC;
+}
+.ComentariosP td{
+    background-color: #fcfcfc;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.NombreUeC h4{
+    
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: #061C23;
+  
+}
+
+.FechaPUeC h4{
+    
+    font-size: .9em;
+    display: flex;
+    align-items:center;
+    color: #5C5C5C;
+ 
+}
+.texteC h6{
+  
+    font-weight: 450;
+    width: 95%;   
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #555555;
+
+}
+
+.ReaccionAP td{
+    background-color: #fcfcfc;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 9px;
+    width: 50%;
+}
+.LikeS span{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: #5e4040;
+}
+.ComentarioS span{
+    width: 10%;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: #5e4040;
+}
+.ReaccionAP span:hover{
+    /*Efecto de oprimir de botón de publicar en rectángulo*/
+   
+    color: #983056;
+    opacity: 1;
+}
+
+.ReaccionAP a{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    padding: 3px 45%;
+    color: #5C5C5C;
+}
+
+ 
+.publicacionU table {
+    border-collapse: collapse;
+    table-layout: auto; 
+    width: 100%;/*-*/
+}
+.comentario form{
+    margin: 2%;  
+    box-sizing: border-box;
+    position: relative;
+    border-collapse: collapse;
+
+    
+}
+.comentarioU input{
+    /* Agrega comentario*/
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box; 
+    
+   
+    align-items: center;
+    padding: 5px;
+    width: 99%;
+    height: 5%;  
+}
+
+.comentarioU input:hover{
+    background-color: #FCFCFC; 
+    opacity: 1;
+    outline: none;
+}
+.comentarioU input:active{
+    background-color: #FCFCFC;
+    opacity: 1;
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

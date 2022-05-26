@@ -1,0 +1,125 @@
+.public{
+     /* Arriba | Derecha | Abajo | Izquierda */
+    padding: 5% 27% 0% 17%;
+    /* rectangulo de publicaciónes*/  
+}
+.publicaciones{
+    /*   */
+    box-sizing: border-box;  
+}
+
+.publicaciones nav{
+    /* Nombre de la página */
+    margin: 1% 0;
+    display: flex;
+    align-items: center;
+    color: #061C23; 
+}
+
+.publicaciones h2{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.publicacionA {
+    /* Agregar publicación alumno */
+    width: 100.3%;
+    border: 2px solid #FEFEFE(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #FEFEFE;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+
+}
+.publicacionA span{
+    /*icono de usuario en publicación alumno*/
+    font-size: 4em;
+    color: rgba(3, 22, 38, 0.5);
+    margin: 0  1 0 1;
+}
+.publicacionA img{
+    /*imagen de usuario en publicación alumno*/
+    color: rgba(3, 22, 38, 0.5);
+    margin: 1  2 0 1;
+    width: 7%;
+    border-radius: 50px;
+    margin: 1%;
+}
+.publicacionA textarea{
+    /*texto en publicación alumno*/
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    background-color: #FEFEFE;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0% 1em 1% 5%;
+    width: 90%;
+    border: none;
+    resize: none;
+    border-radius: 15px;
+}
+
+.publicacionA textarea:focus {
+    /*efecto en texto en publicación alumno*/
+    outline: none;
+}
+.publicacionA a {
+  /*botón de publicar en rectángulo*/
+    width: 15%;
+    padding: .5%;
+
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0% 0% 2% 80%;
+
+    background: #1176CE;
+    border-radius: 50px;
+    
+    font-size: 80%;
+  
+    color: #FEFEFE;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    border: none;
+}
+.publicacionA h2{
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 1%;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.publicacionA a:hover{
+    /*Efecto de oprimir de botón de publicar en rectángulo*/
+    background: #0D5DA3;
+    opacity: 1;
+}
+
+.publicacionA span{
+    /*Icono de publicar*/
+    font-size: 1.5rem;
+    color: #F1F1F1;
+     
+ }
+.imgpublicacionA span{
+   /*Icono de agragar imagen*/
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0% 80% 0% 5%;
+    font-size: 2rem;
+    color: #1176CE;
+}
+
+
+
+
+
+
+
+

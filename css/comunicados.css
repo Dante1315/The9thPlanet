@@ -1,0 +1,84 @@
+.Lateral{
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 8%;
+    width: 23%;
+    left: 76.7%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    /*parte lateral de comunicados y grupos*/
+    text-align: center;
+}
+
+.comunicados table{
+   height: 50%;
+   background: #EBEBEB;
+   border-radius: 15px;
+  
+}
+.comunicados h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.comunicados h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #983056;
+}
+.comunicados a{
+    text-decoration: none;
+}
+.Agregacomunicado{
+   
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+}
+.Agregacomunicado h3{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    height: 50%;
+    left: 50%;
+
+}
+.Agregacomunicado p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    width: 66%;
+    left: 50%;
+
+}
+
+.ImagAgregacomunicado{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    
+}
+.ImagAgregacomunicado img{
+    left: -7%;
+    top: -44%;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+.Lateral img{
+    position: relative;
+}

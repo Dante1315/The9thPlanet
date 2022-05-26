@@ -1,0 +1,123 @@
+
+.public{
+    padding: 7% 27% 0% 17%;
+    /* rectangulo de publicaciónes*/
+    
+}
+.publicaciones{
+    /*   */
+
+    box-sizing: border-box;    
+   
+}
+
+.publicaciones nav{
+    /* Nombre de la página */
+    margin: 5%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2em;
+
+    display: flex;
+    align-items: center;
+    color: #061C23;
+   
+}
+.publicaciones h1{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2em;
+
+}
+.publicacionA {
+    /* Agregar publicación alumno */
+    
+    width: 100.3%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+
+}
+.publicacionA span{
+    /*icono de usuario en publicación alumno*/
+    font-size: 2.5rem;
+    color: rgba(3, 22, 38, 0.5);
+    margin: 0  1 0 1;
+}
+.textpublicacionA textarea{
+    /*texto en publicación alumno*/
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #5C5C5C;
+
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: .1% 1em .5% 1em;
+    width: 92%;
+   
+    
+    border: none;
+  
+    resize: none;
+    
+}
+.textpublicacionA textarea:focus {
+    /*efecto en texto en publicación alumno*/
+    background-color: #ddd;
+    outline: none;
+}
+.textpublicacionA button {
+  /*botón de publicar en rectángulo*/
+    width: 17%;
+    height: 7%;
+
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: .1% 1em 0% 80%;
+
+    background: #1176CE;
+    border-radius: 50px;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+  
+    color: #F1F1F1;
+    letter-spacing: 0.07em;
+
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    border: none;
+}
+
+.textpublicacionA button:hover{
+    /*Efecto de oprimir de botón de publicar en rectángulo*/
+    background: #0D5DA3;
+    opacity: 1;
+}
+
+.textpublicacionA span{
+    /*Icono de publicar*/
+    font-size: 2.1rem;
+    color: #F1F1F1;
+ }
+.imgpublicacionA span{
+   /*Icono de agragar imagen*/
+
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: -26% 80% 0% 2%;
+    font-size: 2.7rem;
+    color: #1176CE;
+}
+
