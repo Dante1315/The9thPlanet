@@ -29,7 +29,7 @@
     header('location:inicio.php');
     }
     if(isset($_GET['re'])){
-        reacciones::agregar($_GET['id_publi'],$_SESSION['id_usu']);
+        reacciones::agregar($des,$_SESSION['id_usu']);
         noti::agregar(false,$_GET['id_publi'],$_SESSION['id_usu']);
         header('location:inicio.php');
     }
@@ -170,15 +170,7 @@
 
                                 <td><?php echo $usu[0]['rol_usu']?></td>
                             </tr>
-                            <tr>
-                                <th scope="row">Cantidad de amigos</th>
-                                    <?php if(!empty(amigos::cantidad($_GET['id_usu']))):?>
-                                    <td><?php echo amigos::cantidad($_GET['id_usu'])[0][0];?></td>
-
-                                    <?php else:?>
-                                        <?php echo 0?>
-                                <?php endif;?>
-                            </tr>
+                            
                             <tr>
                             <?php if($_GET['id_usu']!=$_SESSION['id_usu']):?>
                             <tr>
@@ -186,7 +178,7 @@
 
                                 <td>
                                     <?php if(empty($verifica)):?>
-                                    <a href="p.php?agregar=<?php echo $_GET['id_usu'];?>">agregar</a>
+                                    <a href="p.php?agregar=<?php echo $des;?>">agregar</a>
                                 <?php elseif($verifica[0]['estado_am']==0):?>
                                     <h7>Solicitud pendiente</h7>
                                     <?php elseif($verifica[0]['estado_am']==1):?>

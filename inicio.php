@@ -480,17 +480,7 @@
         </div>
     </div>
     <!--Modal restablecer contraseña-->
-	 '<script>
-		Push.create("Nueva notificacion",{
-			body: "<?php echo  $n['accion_no']?>",
-			icon: "img/Logo .png",
-			timeout: 4000,
-			onClick: function () {
-				window.location="http://localhost:8888/The9thPlanet/perfil.php";
-				this.close();
-			}
-		});
-	</script>
+	 
 
    
 
